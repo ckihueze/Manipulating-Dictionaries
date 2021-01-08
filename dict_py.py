@@ -23,3 +23,24 @@ print(my_name["Chima"])
 print(my_name["Ihueze"])
 print(my_name)
 
+""" Write a Python statement that adds the key/value pair "Kingsley" : 3 to this dictionary. """ 
+
+"""
+Template - Add the specified key/value pair to an
+existing dictionary my_dict
+"""
+
+# Initialize dictionary
+my_name = {"Chima" : 1, "Ihueze" : 2}
+
+my_name["Kingsley"] = 3
+
+# Tests
+print(type(my_name))
+print(my_name["Kingsley"])
+print(my_name)
+
+
+
+
+
