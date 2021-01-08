@@ -35,6 +35,7 @@ my_name = {"Chima" : 1, "Ihueze" : 2}
 
 my_name["Kingsley"] = 3
 
+
 # Tests
 print(type(my_name))
 print(my_name["Kingsley"])
