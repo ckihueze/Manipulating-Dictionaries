@@ -35,11 +35,28 @@ my_name = {"Chima" : 1, "Ihueze" : 2}
 
 my_name["Kingsley"] = 3
 
-
 # Tests
 print(type(my_name))
 print(my_name["Kingsley"])
 print(my_name)
+
+
+"""
+Write an expression that determines whether
+a key is in a dictionary
+"""
+
+# Initialize dictionary
+my_names = {"Chima" : 1, "Ihueze" : 2, "Kingsley" : 3}
+
+# Print True/False depending on whether the key "Chima" is in my_names
+print("Chima" in my_names)
+
+# Print True/False depending on whether the key "Ihueze" is in my_names
+print("Ihueze" in my_names)
+
+# Print True/False depending on whether the key "Mmesoma" is in my_names
+print("Mmesoma" in my_names)
 
 
 
